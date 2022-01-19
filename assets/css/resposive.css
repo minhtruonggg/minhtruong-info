@@ -56,11 +56,9 @@
         width: 100%;
     }
     .title-heading::before {
-        width: 20%;
-        top: 140%;
+        display: none;
     }
     .title-heading1::before {
-        width: 10%;
-        top: 100%;
+        display: none;
     }
 }
