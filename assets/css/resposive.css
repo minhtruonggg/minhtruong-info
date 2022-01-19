@@ -56,10 +56,10 @@
     }
     .title-heading::before {
         width: 20%;
-        top: 136%;
+        top: 137%;
     }
     .title-heading1::before {
         width: 10%;
-        top: 101%;
+        top: 100%;
     }
 }
