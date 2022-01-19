@@ -47,6 +47,7 @@
     }
     .container-list-item p {
         line-height: 2rem;
+        padding-top: 10px;
     }
     .col-2 {
         text-align: center;
