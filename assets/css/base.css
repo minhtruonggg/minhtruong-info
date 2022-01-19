@@ -1,0 +1,72 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+}
+/* Reposive */
+.grid {
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.col-1 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.col-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+}
+/* test */
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+.grid__column-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
+}
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
