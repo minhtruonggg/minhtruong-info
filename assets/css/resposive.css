@@ -61,4 +61,7 @@
     .title-heading1::before {
         display: none;
     }
+    .title-heading1 {
+        font-size: 1.8rem
+    }
 }
