@@ -1,0 +1,65 @@
+@media (max-width: 64em) {
+
+}
+@media (max-width: 46.1875em) {
+    .intro {
+        display: block;
+        margin: 20px 20px 0px;
+    }
+    .intro__user {
+        display: block;
+    }
+    .intro__user-left {
+        text-align: center;
+    }
+    .intro__user-right-name {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .intro__user-right-job {
+        text-align: center;
+    }
+    .intro__user-right-social-list {
+        padding: 0;
+        margin: 20px 0;
+    }
+    .intro__user-right-social-item {
+
+    }
+    .intro__contact {
+        display: block;
+        align-items: center;
+    }
+    .intro__contact-list {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0;
+
+    }
+    .intro__user::after {
+        display: none;
+    }
+    .overhead {
+        padding: 0 0 10px;
+    }
+    .container {
+        margin: 20px 20px;
+    }
+    .container-list-item p {
+        line-height: 2rem;
+    }
+    .col-2 {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .title-heading::before {
+        width: 20%;
+        top: 136%;
+    }
+    .title-heading1::before {
+        width: 10%;
+        top: 101%;
+    }
+}
