@@ -80,5 +80,5 @@ html {
 }
 .snow {
     background-image:url("../img/finish/snow1.png"),url("../img/finish/snow2.png");
-    animation: snow 10s linear infinite;
+    animation: snow 5s linear infinite;
 }
