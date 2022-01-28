@@ -47,6 +47,7 @@
     }
     .container-list-item p {
         line-height: 2rem;
+        padding-top: 10px;
     }
     .col-2 {
         text-align: center;
@@ -55,11 +56,12 @@
         width: 100%;
     }
     .title-heading::before {
-        width: 20%;
-        top: 136%;
+        display: none;
     }
     .title-heading1::before {
-        width: 10%;
-        top: 101%;
+        display: none;
+    }
+    .title-heading1 {
+        font-size: 1.8rem
     }
 }
