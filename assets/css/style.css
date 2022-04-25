@@ -131,7 +131,7 @@
     color: #27bbe0;
     transition: color .5s ease-out;
 }
-.title-heading::before {
+/* .title-heading::before {
     position: absolute;
     content: '';
     height: 5px;
@@ -139,7 +139,7 @@
     background-image: linear-gradient(142.17deg,#cc2dc4 6.66%,#cead1c 91.48%);
     top: 40%;
     border-radius: 25px;
-}
+} */
 .title-heading1 {
     display: block;
     font-size: 3rem;
@@ -152,7 +152,7 @@
     color: #27bbe0;
     transition: color .5s ease-out;
 }
-.title-heading1::before {
+/* .title-heading1::before {
     position: absolute;
     content: '';
     height: 5px;
@@ -160,7 +160,7 @@
     background-image: linear-gradient(142.17deg,#cc2dc4 6.66%,#cead1c 91.48%);
     top: 60%;
     border-radius: 25px;
-}
+} */
 .case {
     display: block;
     text-decoration: none;
